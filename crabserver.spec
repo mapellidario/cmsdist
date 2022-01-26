@@ -18,6 +18,7 @@
 %define crabrepo dmwm
 Requires: python3 py3-cherrypy py3-pycurl py3-cx-oracle
 Requires: py3-retry py3-boto3 py3-future py3-pyOpenSSL py3-htcondor rotatelogs jemalloc
+Requires: py3-memory-profiler
 BuildRequires: py3-sphinx
 %else
 %define python_runtime %(echo python)
