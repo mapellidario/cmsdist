@@ -20,6 +20,7 @@ Requires: py3-ldap
 Requires: py3-retry
 Requires: py3-rucio-clients py3-future
 Requires: jemalloc
+Requires: py3-pyjwt py3-numpy
 
 Source0: git://github.com/%{wmcrepo}/WMCore.git?obj=master/%{wmcver}&export=WMCore-%{wmcver}&output=/WMCore-%{n}-%{wmcver}.tar.gz
 Source1: git://github.com/%{crabrepo}/CRABServer.git?obj=master/%{realversion}&export=CRABServer-%{realversion}&output=/CRABServer-%{realversion}.tar.gz
